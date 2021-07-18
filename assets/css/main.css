@@ -528,8 +528,8 @@ p+.content-btt-wraper {
 
 .content-text p {
 
-  font-size: 16.0px;
-  line-height: 2.0;
+  font-size: 17px;
+  line-height: 1.9;
 }
 
 .content-text p a {
@@ -566,9 +566,13 @@ blockquote.importent {
 .owl-theme .owl-dots .owl-dot span {
   background: #bbb;
 }
-
-.useablity-slider-item {
-  width: 400px;
+.useablity-slider{
+	width:900px;
+	margin: 0 auto;
+	display:block;
+}
+.useablity-slider1-item {
+  
   margin: 10px auto;
   display: block;
   overflow: hidden;
@@ -577,32 +581,16 @@ blockquote.importent {
   box-shadow: 1px 1px 4px 1px #bab7b7
 }
 
-.useablity-slider-item .credit {
-  text-align: center;
-  display: block;
-  background: #222;
-  overflow: hidden;
-  border-top: 1px solid #888
-}
-
-.useablity-slider-item .credit a,
-.useablity-slider-item .credit span {
-  padding: 5px;
-  font-family: GanjNamehSans, Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  color: #bbb;
-  line-height: 1
-}
 
 .useablity-slider-item video.labnol {
   display: block
 }
 
 .useablity-slider-item image.labnol,
-.useablity-slider-item video.labnol {
-  height: auto !important;
-  width: 100%
+.useablity-slider-item  iframe {
+  /* height: auto !important; */
+  width: 100%;
+  min-height:250px;
 }
 
 .content-sample-wrapper {

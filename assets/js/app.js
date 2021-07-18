@@ -19,12 +19,13 @@ $(document).ready(function () {
     $(" .useablity-slider").owlCarousel({
         animateIn: 'slideInLeft',
         animateOut: 'slideOutRight',
-
+ responsiveBaseElement: window,
         rtl: true,
         items: 2,
         nav: false,
         navText: ['بعدی', 'قبلی'],
         autoplay: false,
+		        margin: 10,
     });
 
 
